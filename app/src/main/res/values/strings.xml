@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Alarm</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="title_alarm">Alarm</string>
+    <string name="title_missions">Missions</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="title_settings">Settings</string>
+    
+    <!-- Alarm Screen -->
+    <string name="add_alarm">Add Alarm</string>
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="delete_alarm">Delete Alarm</string>
+    <string name="alarm_name">Alarm Name</string>
+    <string name="alarm_time">Alarm Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="sound">Sound</string>
+    <string name="vibration">Vibration</string>
+    <string name="mission">Mission</string>
+    <string name="no_mission">No Mission</string>
+    <string name="sound_and_vibration">Sound &amp; Vibration</string>
+    <string name="allow_snooze">Allow Snooze</string>
+    <string name="no_alarms">No alarms set</string>
+    <string name="snooze">Snooze</string>
+    <string name="dismiss">Dismiss</string>
+    
+    <!-- Days of Week -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    
+    <!-- Mission Types -->
+    <string name="mission_math">Math Problem</string>
+    <string name="mission_memory">Memory Game</string>
+    <string name="mission_shake">Shake Phone</string>
+    <string name="mission_barcode">Scan Barcode</string>
+    <string name="mission_steps">Take Steps</string>
+    
+    <!-- Mission Difficulty -->
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    
+    <!-- Statistics -->
+    <string name="total_alarms">Total Alarms</string>
+    <string name="successful_wakeups">Successful Wake-ups</string>
+    <string name="missed_alarms">Missed Alarms</string>
+    <string name="average_completion_time">Average Completion Time</string>
+    <string name="overview">Overview</string>
+    <string name="success_rate">Success Rate</string>
+    <string name="mission_statistics">Mission Statistics</string>
+    <string name="success_rate_format">%.1f%%</string>
+    <string name="completion_time_format">%.1f seconds</string>
+    <string name="mission_success_rate">%1$s Success Rate: %2$s</string>
+    <string name="mission_usage_count">Used %d times</string>
+    
+    <!-- Settings -->
+    <string name="notification_settings">Notification Settings</string>
+    <string name="sound_settings">Sound Settings</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="backup_settings">Backup Settings</string>
+    <string name="about">About</string>
+    
+    <!-- General -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    
+    <!-- Math Mission -->
+    <string name="solve_math_problem">Solve Math Problem</string>
+    <string name="enter_answer">Enter your answer</string>
+    <string name="submit">Submit</string>
+    <string name="correct_answer">Correct! Alarm dismissed.</string>
+    <string name="wrong_answer">Wrong answer. Try again!</string>
+    <string name="attempts_remaining">Attempts remaining: %d</string>
+    
+    <!-- Memory Mission -->
+    <string name="memory_game_title">Memory Game</string>
+    <string name="memory_game_instructions">Match all pairs of cards to complete the mission</string>
+    <string name="pairs_found">Pairs found: %1$d/%2$d</string>
+    <string name="time_elapsed">Time: %d seconds</string>
+    <string name="memory_game_complete">Well done! Mission complete!</string>
+    
+    <!-- Shake Mission -->
+    <string name="shake_mission_title">Shake to Wake Up!</string>
+    <string name="shake_mission_instructions">Shake your phone until you reach the required intensity to complete the mission.</string>
+    <string name="shake_progress_format">%d%%</string>
+    <string name="shake_time_elapsed">Time: %d seconds</string>
+    
+    <!-- Barcode Mission -->
+    <string name="barcode_mission_title">Scan a Barcode</string>
+    <string name="barcode_mission_instructions">Scan any barcode to complete the mission. You can use a product barcode, QR code, or any other barcode type.</string>
+    <string name="barcode_camera_permission_required">Camera permission is required for barcode scanning.</string>
+    <string name="barcode_time_elapsed">Time: %d seconds</string>
+    
+    <!-- Step Mission -->
+    <string name="step_mission_title">Take a Walk!</string>
+    <string name="step_mission_instructions">Walk around to complete the required number of steps.</string>
+    <string name="step_count_format">%1$d / %2$d</string>
+    <string name="step_target_format">Target: %d steps</string>
+    <string name="step_time_elapsed">Time: %d seconds</string>
+    <string name="step_sensor_not_available">Step counter sensor is not available on this device.</string>
+</resources> 

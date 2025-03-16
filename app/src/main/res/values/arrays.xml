@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_sound_names">
+        <item>Analog Alarm</item>
+        <item>Digital Alarm</item>
+        <item>Fire Alarm</item>
+        <item>Beep</item>
+        <item>Siren</item>
+        <item>Rooster</item>
+    </string-array>
+
+    <integer-array name="alarm_sound_resources">
+        <item>@raw/analog_alarm</item>
+        <item>@raw/digital_alarm</item>
+        <item>@raw/fire_alarm</item>
+        <item>@raw/beep</item>
+        <item>@raw/siren</item>
+        <item>@raw/rooster</item>
+    </integer-array>
+
+    <string-array name="mission_types">
+        <item>@string/no_mission</item>
+        <item>@string/mission_math</item>
+        <item>@string/mission_memory</item>
+        <item>@string/mission_shake</item>
+        <item>@string/mission_barcode</item>
+        <item>@string/mission_steps</item>
+    </string-array>
+
+    <string-array name="mission_difficulties">
+        <item>@string/difficulty_easy</item>
+        <item>@string/difficulty_medium</item>
+        <item>@string/difficulty_hard</item>
+    </string-array>
+</resources> 

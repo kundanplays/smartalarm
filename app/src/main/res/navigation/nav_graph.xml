@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/alarmFragment">
+
+    <fragment
+        android:id="@+id/alarmFragment"
+        android:name="com.basicusapps.smartalarm.ui.alarm.AlarmFragment"
+        android:label="Alarms">
+        <action
+            android:id="@+id/action_alarmFragment_to_addEditAlarmFragment"
+            app:destination="@id/addEditAlarmFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_statisticsFragment"
+            app:destination="@id/statisticsFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_mathMissionFragment"
+            app:destination="@id/mathMissionFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_memoryMissionFragment"
+            app:destination="@id/memoryMissionFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_shakeMissionFragment"
+            app:destination="@id/shakeMissionFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_barcodeMissionFragment"
+            app:destination="@id/barcodeMissionFragment" />
+        <action
+            android:id="@+id/action_alarmFragment_to_stepMissionFragment"
+            app:destination="@id/stepMissionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addEditAlarmFragment"
+        android:name="com.basicusapps.smartalarm.ui.alarm.AddEditAlarmFragment"
+        android:label="Add/Edit Alarm">
+        <argument
+            android:name="alarmId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/statisticsFragment"
+        android:name="com.basicusapps.smartalarm.ui.statistics.StatisticsFragment"
+        android:label="Statistics" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.basicusapps.smartalarm.ui.settings.SettingsFragment"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/mathMissionFragment"
+        android:name="com.basicusapps.smartalarm.ui.missions.MathMissionFragment"
+        android:label="Math Mission">
+        <argument
+            android:name="alarmId"
+            app:argType="long" />
+        <argument
+            android:name="difficulty"
+            app:argType="com.basicusapps.smartalarm.ui.missions.MissionDifficulty" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/memoryMissionFragment"
+        android:name="com.basicusapps.smartalarm.ui.missions.MemoryMissionFragment"
+        android:label="Memory Mission">
+        <argument
+            android:name="alarmId"
+            app:argType="long" />
+        <argument
+            android:name="difficulty"
+            app:argType="com.basicusapps.smartalarm.ui.missions.MissionDifficulty" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/shakeMissionFragment"
+        android:name="com.basicusapps.smartalarm.ui.missions.ShakeMissionFragment"
+        android:label="Shake Mission">
+        <argument
+            android:name="alarmId"
+            app:argType="long" />
+        <argument
+            android:name="difficulty"
+            app:argType="com.basicusapps.smartalarm.ui.missions.MissionDifficulty" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/barcodeMissionFragment"
+        android:name="com.basicusapps.smartalarm.ui.missions.BarcodeMissionFragment"
+        android:label="Barcode Mission">
+        <argument
+            android:name="alarmId"
+            app:argType="long" />
+        <argument
+            android:name="difficulty"
+            app:argType="com.basicusapps.smartalarm.ui.missions.MissionDifficulty" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/stepMissionFragment"
+        android:name="com.basicusapps.smartalarm.ui.missions.StepMissionFragment"
+        android:label="Step Mission">
+        <argument
+            android:name="alarmId"
+            app:argType="long" />
+        <argument
+            android:name="difficulty"
+            app:argType="com.basicusapps.smartalarm.ui.missions.MissionDifficulty" />
+    </fragment>
+
+</navigation> 
